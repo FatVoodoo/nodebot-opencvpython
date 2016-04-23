@@ -8,7 +8,7 @@ setTimeout(function () {
         console.log('ready');
     webcamdetector.recognizeFaces({
         'csv': 'ron.csv',
-        'haarcascade': 'haarcascade_frontalface_default.xml'
+        'haarcascade': 'face.xml'
     }, function (data, err) {
         if (err) 
             console.log("Error:" + err);
